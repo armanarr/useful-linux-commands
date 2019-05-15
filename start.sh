@@ -7,5 +7,5 @@ python --version
 sudo apt-get update
 sudo apt-get install python3-pip
 
-#git install and project pull
+#git install and clone git repository
 sudo apt-get install git
