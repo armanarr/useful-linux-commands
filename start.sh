@@ -10,6 +10,9 @@ sudo apt-get install python3-pip
 #install python-libs from requirements.txt
 pip3 install -r requirements.txt
 
+#command time
+time zip -r /var/backups/etc.zip /etc/
+
 #ssh-key create
 ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub #for see it
